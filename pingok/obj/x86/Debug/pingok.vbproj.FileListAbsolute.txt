@@ -1,0 +1,9 @@
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\bin\Debug\pingok.exe
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\bin\Debug\pingok.pdb
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\bin\Debug\pingok.xml
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\pingok.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\pingok.exe
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\pingok.xml
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\pingok.pdb
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\PingOK.Form1.resources
+C:\Users\Usuario\Desktop\pingok\pingok\pingok\obj\x86\Debug\PingOK.Resources.resources
