@@ -23,7 +23,7 @@ Public Class Form1
         If My.Computer.Network.IsAvailable Then
             Try
                 If My.Computer.Network.Ping("www.google.com", 1000) Then
-                    NotifyIcon1.Icon = New Icon("C:\Users\Usuario\Desktop\PruebaDeConexión\íconos\green.ico")
+                    NotifyIcon1.Icon = New Icon("C:\PingOK\iconos\green.ico")
                     If estado Then
                         NotifyIcon1.BalloonTipText = "La prueba de conexión fue satisfactoria, disfrutá de Internet!"
                         NotifyIcon1.BalloonTipTitle = "TODO FUNCIONA OK!!!"
@@ -36,7 +36,7 @@ Public Class Form1
                     End If
                 Else
                     estado = 0
-                    NotifyIcon1.Icon = New Icon("C:\Users\Usuario\Desktop\PruebaDeConexión\íconos\red.ico")
+                    NotifyIcon1.Icon = New Icon("C:\PingOK\iconos\red.ico")
                     If My.Computer.Network.Ping("8.8.8.8", 250) Then
                         NotifyIcon1.BalloonTipText = "Se detectó un problema en los DNS!"
                         NotifyIcon1.BalloonTipTitle = "ALGO ANDA MAL!!!"
@@ -56,7 +56,7 @@ Public Class Form1
                     End If
                 End If
             Catch ex As Exception
-                NotifyIcon1.Icon = New Icon("C:\Users\Usuario\Desktop\PruebaDeConexión\íconos\red.ico")
+                NotifyIcon1.Icon = New Icon("C:\PingOK\iconos\red.ico")
                 NotifyIcon1.BalloonTipText = "Problema en el MODEM del ISP!"
                 NotifyIcon1.BalloonTipTitle = "NO HAY CONEXIÓN A INTERNET!!!"
                 If Notificaciones.Checked Then
@@ -71,7 +71,7 @@ Public Class Form1
             End Try
 
         Else
-            NotifyIcon1.Icon = New Icon("C:\Users\Usuario\Desktop\PruebaDeConexión\íconos\red.ico")
+            NotifyIcon1.Icon = New Icon("C:\PingOK\iconos\red.ico")
             NotifyIcon1.BalloonTipText = "No hay ninguna conexion de red activa!!!"
             NotifyIcon1.BalloonTipTitle = "PROBLEMA GRAVE!!!"
             If Notificaciones.Checked Then
