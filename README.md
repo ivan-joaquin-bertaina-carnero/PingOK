@@ -8,9 +8,10 @@ Pueden descargar el proyecto completo para importar a MS VS 2010:
 Mi configuración es la siguiente:
 
 Microsoft Visual Studio 2010
-Versión 10.0.30319.1 RTMRel
+ > Versión 10.0.30319.1 RTMRel
+
 Microsoft .NET Framework
-Versión 4.8.03761 RTMRel
+ > Versión 4.8.03761 RTMRel
 
 Versión instalada: VB Express
 
