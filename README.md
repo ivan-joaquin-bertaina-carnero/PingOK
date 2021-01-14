@@ -17,6 +17,6 @@ Versión instalada: VB Express
 
 -------------------------------------------------------------------
 
-Importante, si solo quieren usar la aplicaación, solamente tienen que descargar en zip el repositorio, y descomprimir la carpeta "Aplicación", una vez hecho esto copian la carpeta "PingOK" a la raíz del disco local "C:\", de esta manera al ejecutar "pingok.exe" funcionará correctamente.
+IMPORTANTE: si solo quieren usar la aplicaación, solamente tienen que descargar en zip el repositorio, y descomprimir la carpeta "Aplicación", una vez hecho esto copian la carpeta "PingOK" a la raíz del disco local "C:\\", de esta manera al ejecutar "pingok.exe" funcionará correctamente.
 
 * Aclaración: la aplicación está en fase de pruebas.
